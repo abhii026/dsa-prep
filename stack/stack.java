@@ -1,4 +1,4 @@
-
+// STACK USNIG ARRAY
 public class stack {
 
     private int top = -1;
@@ -36,7 +36,6 @@ public class stack {
             System.out.println("Stack Underflow");
             return;
         }
-
         System.out.println("Peek element: " + st[top]);
     }
 
@@ -44,14 +43,13 @@ public class stack {
     public void size_stack() {
         System.out.println("Current size: " + (top + 1));
     }
-
+    
     // Display
     public void display() {
         if (isEmpty()) {
             System.out.println("Stack is empty");
             return;
         }
-
         for (int i = top; i >= 0; i--) {
             System.out.println(st[i]);
         }
